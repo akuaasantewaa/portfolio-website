@@ -10,13 +10,13 @@ const Projects = () => {
         title="Projects"
         description="Here you will find some of the personal and clients projects that I created with each project containing its own case study"
       />
-      <div className="space-y-4">
+      <div className="space-y-10">
         {userDetails.projects.map((project, index) => {
           return (
             <div key={index} className="grid md:grid-cols-5 items-center">
               <div className="col-span-3 flex justify-center  rounded-lg overflow-hidden  transform hover:scale-105 transition-transform duration-500 ease-in-out">
                 <img
-                  className=" object-cover"
+                  className=" object-cover w-2/3"
                   src={project.image}
                   alt={project.projectName}
                 />

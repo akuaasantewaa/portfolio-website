@@ -1,9 +1,5 @@
-import { FaHandsHelping } from "react-icons/fa"; // Importing icons for a default option
 import { useUser } from "../../../contexts/UserContext";
 import SectionHeader from "../components/SectionHeader";
-
-// Since you have only one type of volunteer data, you might not need multiple icons
-const defaultIcon = <FaHandsHelping className="text-green-500" size={30} />;
 
 const Volunteers = () => {
   const { userDetails } = useUser();
@@ -13,13 +9,14 @@ const Volunteers = () => {
     <div className="container py-20 flex flex-col gap-10 mx-auto w-screen text-center">
       <SectionHeader title="Volunteering" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {volunteering.map((volunteer, index) => (
-          <div
+        {volunteering.map((volunteer, index) => 
+          {const LinkIcon = volunteer.icon
+         return <div
             key={index}
             className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center"
           >
             <div className="mb-4">
-              {defaultIcon} {/* Use a default icon for now */}
+              <LinkIcon color={volunteer.color} size={30} />
             </div>
             <h3 className="text-xl font-semibold text-blue-600 mb-2">
               {volunteer.projectName}
@@ -38,7 +35,7 @@ const Volunteers = () => {
               <strong>Location:</strong> {volunteer.location}
             </div>
           </div>
-        ))}
+        })}
       </div>
     </div>
   );

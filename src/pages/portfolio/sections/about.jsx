@@ -34,7 +34,7 @@ const About = () => {
               ) : (
                 <div className="flex flex-col gap-4">
                   <p>
-                  I&apos;m a Backend-Focused Web Developer, building and managing the server-side of websites and web applications to ensure seamless performance and functionality. Check out some of my work in the.
+                  I&apos;m a Software Engineer, I design and build responsive, user-friendly web applications using modern technologies. With experience in both frontend and backend development, I focus on creating clean, efficient, and scalable solutions that solve real-world problems. Check out some of my work in the.
                     <Link
                       to="/projects"
                       className="text-blue-600 hover:underline"

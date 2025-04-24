@@ -16,5 +16,6 @@ export const stepperReducer = (state = 0, action) => {
 
     default:
       return state;
-  }
+  
+    }
 };

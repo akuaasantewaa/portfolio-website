@@ -26,7 +26,7 @@ const Hero = () => {
           </span>
         </h1>
         <p className="w-[80%] mx-auto font-medium text-gray-600 text-lg md:text-2xl leading-relaxed">
-          A backend developer
+          A Software Engineer
         </p>
         <button
           onClick={handleScroll}

@@ -1,7 +1,9 @@
-import project1 from "../../assets/images/project 1.png";
-import project2 from "../../assets/images/project 2.png";
-import project4 from "../../assets/images/project 4.png";
-import project6 from "../../assets/images/project 6.png";
+import project1 from "../../assets/images/project 2.png";
+import project2 from "../../assets/images/project 4.png";
+import project4 from "../../assets/images/new1.png";
+import project6 from "../../assets/images/new3.png";
+import project7 from "../../assets/images/new2.png";
+import project8 from "../../assets/images/new.png";
 import ceo from "../../assets/images/ceo.jpg";
 import knust from "../../assets/images/knust.png";
 import Kumasi from "../../assets/images/Kumasi_high_school_crest.jpg";
@@ -104,7 +106,35 @@ export const future = {
       id: "66b5498757b9b768e0628886",
     },
     {
-      name: "WordPress",
+      name: "NoSQL",
+      levelOfProficiency: "Expert",
+      createdAt: "2024-08-08T22:39:41.065Z",
+      updatedAt: "2024-08-08T22:39:41.065Z",
+      id: "66b5492d57b9b768e0628882",
+    },
+    {
+      name: "Boostrap",
+      levelOfProficiency: "Expert",
+      createdAt: "2024-08-08T22:39:41.065Z",
+      updatedAt: "2024-08-08T22:39:41.065Z",
+      id: "66b5492d57b9b768e0628882",
+    },
+    {
+      name: "React",
+      levelOfProficiency: "Expert",
+      createdAt: "2024-08-08T22:39:41.065Z",
+      updatedAt: "2024-08-08T22:39:41.065Z",
+      id: "66b5492d57b9b768e0628882",
+    },
+    {
+      name: "Express",
+      levelOfProficiency: "Expert",
+      createdAt: "2024-08-08T22:39:41.065Z",
+      updatedAt: "2024-08-08T22:39:41.065Z",
+      id: "66b5492d57b9b768e0628882",
+    },
+    {
+      name: "Python",
       levelOfProficiency: "Expert",
       createdAt: "2024-08-08T22:39:41.065Z",
       updatedAt: "2024-08-08T22:39:41.065Z",
@@ -156,7 +186,7 @@ export const future = {
         "Designed the NLP model, integrated it with a backend API, and deployed the solution on a cloud platform.",
       skills: "Express, Node.js, JavaScript, ",
       link: "https://cammfusion.netlify.app/",
-      image: project2,
+      image: project1,
       nameOfInstitution: "Camm Fusion",
       startDate: "October 2024",
       endDate: "October 2024",
@@ -164,16 +194,29 @@ export const future = {
     {
       projectName: "FusionXpress-api",
       description:
-        "This app simplifies the advertisement process by offering an intuitive platform for managing and optimizing ad campaigns.",
+      "This app simplifies the advertisement process by offering an intuitive platform for managing and optimizing ad campaigns.",
       contribution:
-        "As a backend developer will ensure the smooth operation, security, and scalability of the advertisement web app. By focusing on APIs, database management, authentication, analytics, and performance optimization, provide the essential foundation that powers the entire platform.",
- //Led the development team, implemented key features, and coordinated with construction professionals for testing.",
+      "As a backend developer will ensure the smooth operation, security, and scalability of the advertisement web app. By focusing on APIs, database management, authentication, analytics, and performance optimization, provide the essential foundation that powers the entire platform.",
+      //Led the development team, implemented key features, and coordinated with construction professionals for testing.",
       skills: "MongoDB, Express, Node.js, Javascript, ",
       link: "https://fusionxpress.netlify.app/",
-      image: project4,
+      image: project2,
       nameOfInstitution: "Camm Fusion",
       startDate: "October 2024",
       endDate: "October 2024",
+    },
+    {
+      projectName: "SexWise",
+      description:
+      "SexWise is an interactive online platform designed to provide accurate, inclusive, and judgment-free information on sex-related issues. It aims is to address gaps in sex education by covering a wide range of topics: physical health, emotional well-being, relationships, safe sex practices, consent, and mental health!",
+      contribution:
+      "Developed the backend infrastructure, managed users dashboard, articles, message and database.",
+      skills:"Node.js, MongoDB, Express, JavaScript, Stripe API",
+      link:"http://sexwise.netlify.app",
+      image: project4,
+      nameOfInstitution: "SexWise",
+      startDate: "October 2024",
+      endDate: "November 2024",
     },
     {
       projectName: "Real-Estate",
@@ -183,23 +226,36 @@ export const future = {
         "Developed the backend infrastructure, managed the database, and implemented video streaming capabilities.",
       skills: "Node.js, MongoDB, Express",
       link: "https://akuaasantewaa.github.io/real-estate/",
-     image: project2,
+     image: project8,
       nameOfInstitution: "Tukio Events",
       startDate: "September 2024",
       endDate: "October 2024",
     },
     {
-      projectName: "CookBook",
+      projectName: "Web3 Marketing Strategy Report for Cryptio",
       description:
-        "CookBook is the all-in-one recipe keeper & cooking app for iOS, Android & Web. Add & organise your recipes, plan your meals, create shopping lists and more!",
+        "A blockchain-based financial reporting platform. This report outlined key strategies for increasing brand awareness, driving user adoption, and fostering community engagement within the Web3 ecosystem!",
       contribution:
-        "Designed the frontend, integrated a payment gateway, and optimized the site for performance and security.",
-      skills: "React, Node.js, Stripe API",
-      link: "https://cookbookgh.netlify.app/",
+        "Research and market Analysis, Growth and community Encgagement Strategies, User Acquisition and Retention, Content and Social Media Marketing, Performance Tracking and Analytics.",
+      skills: "SEO optimization for crypto-related content, Tokenomics and incentive-driven user acquisition strategies, Influencer and partnership marketing in the Web3 space, Content marketing (blogs, whitepapers, and educational resources).", 
+      link: "https://docs.google.com/document/d/17il_igFm8DJXu6Ssgvr66NlVDunzx40JN0JeJ_yj50g/edit?tab=t.0",
       image: project6,
-      nameOfInstitution: "CookBook",
-      startDate: "October 2019",
-      endDate: "January 2020",
+      nameOfInstitution: "Helicode",
+      startDate: "January 2025",
+      endDate: "March 2025",
+    },
+    {
+      projectName: "Maxgyet Oil ",
+      description:
+        "The Maxgyet Oil process transforms waste materials into low-cost, eco-friendly fuel, helping communites reduce pollution and gain energy independence!",
+      contribution:
+        "Created a visually appealing and professional label for Maxgyet Oil Enterprises' diesel product, Ensured consistency in color scheme (Green and White), clear visibility of essential details (brand name, contact, email, location), and professional font sizing, Designed the label to fit different container sizes (500ml, 1L, 1.5L, 5L) while maintaining its effectiveness.",
+      skills: "Node.js, MongoDB, Express, JavaScript, Stripe API",
+      link: "https://maxgyet-oil.vercel.app/",
+      image: project7,
+      nameOfInstitution: "YAI",
+      startDate: "February 2025",
+      endDate: "March 2025",
     },
   ],
 

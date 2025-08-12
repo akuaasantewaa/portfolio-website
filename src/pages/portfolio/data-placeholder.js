@@ -1,18 +1,18 @@
 import project1 from "../../assets/images/project 2.png";
 import project2 from "../../assets/images/project 4.png";
+import project3 from "../../assets/images/new.png";
 import project4 from "../../assets/images/new1.png";
-import project6 from "../../assets/images/new3.png";
+// import project6 from "../../assets/images/project7.jpg";
 import project7 from "../../assets/images/new2.png";
-import project8 from "../../assets/images/new.png";
+import project8 from "../../assets/images/project8.png";
 import ceo from "../../assets/images/ceo.jpg";
 import knust from "../../assets/images/knust.png";
-import Kumasi from "../../assets/images/Kumasi_high_school_crest.jpg";
+import Kumasi from "../../assets/images/crest.png";
+import div from "../../assets/images/div.png";
 import faith from "../../assets/images/faith-high-school.webp";
-import { FaHandsHelping } from "react-icons/fa"; 
+import { FaHandsHelping } from "react-icons/fa";
 import { FaCross } from "react-icons/fa6";
 import { IoAccessibility } from "react-icons/io5";
-
-
 
 export const future = {
   firstname: "Regina Nhyira",
@@ -28,8 +28,8 @@ export const future = {
         "A leading science and technology university in West Africa, known for its research and innovation.",
       program: "Bachelor of Science in Statistics and Mathematics",
       image: knust,
-      grade: "Second Class Honors",
-      startDate: "September 2021",
+      grade: "First Class Honors",
+      startDate: "September 2017",
       endDate: "June 2021",
     },
     {
@@ -53,6 +53,17 @@ export const future = {
       grade: "BECE Certificate",
       startDate: "September 2010",
       endDate: "June 2013",
+    },
+     {
+      schoolName: "Tech Accelerator Program, DIV Group",
+      location: "Accra, Ghana",
+      description:
+        "A highly focused tech training program for women, structured around real-world skills and direct employment pathways.",
+      program: "Tech Training Program for Women",
+      image: div,
+      grade: "Software Engineer Certificate",
+      startDate: "February 2025",
+      endDate: "January 2026",
     },
   ],
   skills: [
@@ -140,6 +151,41 @@ export const future = {
       updatedAt: "2024-08-08T22:39:41.065Z",
       id: "66b5492d57b9b768e0628882",
     },
+    {
+      name: "MySQL",
+      levelOfProficiency: "Expert",
+      createdAt: "2024-08-08T22:39:41.065Z",
+      updatedAt: "2024-08-08T22:39:41.065Z",
+      id: "66b5492d57b9b768e0628882",
+    },
+    {
+      name: " PostgreSQL",
+      levelOfProficiency: "Expert",
+      createdAt: "2024-08-08T22:39:41.065Z",
+      updatedAt: "2024-08-08T22:39:41.065Z",
+      id: "66b5492d57b9b768e0628882",
+    },
+    {
+      name: "WordPress",
+      levelOfProficiency: "Expert",
+      createdAt: "2024-08-08T22:39:41.065Z",
+      updatedAt: "2024-08-08T22:39:41.065Z",
+      id: "66b5492d57b9b768e0628882",
+    },
+    {
+      name: "Shopify",
+      levelOfProficiency: "Expert",
+      createdAt: "2024-08-08T22:39:41.065Z",
+      updatedAt: "2024-08-08T22:39:41.065Z",
+      id: "66b5492d57b9b768e0628882",
+    },
+    {
+      name: "Elementor",
+      levelOfProficiency: "Expert",
+      createdAt: "2024-08-08T22:39:41.065Z",
+      updatedAt: "2024-08-08T22:39:41.065Z",
+      id: "66b5492d57b9b768e0628882",
+    },
   ],
   achievements: [
     {
@@ -174,75 +220,21 @@ export const future = {
       date: "October 2022",
       nameOfInstitution: "University Hackathon",
     },
-  ]
-,  
-
+  ],
   projects: [
     {
-      projectName: "Camm-Library",
+      projectName: "Fitta.com",
       description:
-        "A library management app designed to streamline the organization and tracking of books. As the backend developer, I built and managed the server-side logic, database integration, and API functionalities to ensure smooth operations, including user authentication, book lending, and inventory management",
+        "FITTA offers professional-grade collision repair services from experienced technicians, using the latest tools and techniques to ensure the highest quality results.",
       contribution:
-        "Designed the NLP model, integrated it with a backend API, and deployed the solution on a cloud platform.",
-      skills: "Express, Node.js, JavaScript, ",
-      link: "https://cammfusion.netlify.app/",
-      image: project1,
-      nameOfInstitution: "Camm Fusion",
-      startDate: "October 2024",
-      endDate: "October 2024",
-    },
-    {
-      projectName: "FusionXpress-api",
-      description:
-      "This app simplifies the advertisement process by offering an intuitive platform for managing and optimizing ad campaigns.",
-      contribution:
-      "As a backend developer will ensure the smooth operation, security, and scalability of the advertisement web app. By focusing on APIs, database management, authentication, analytics, and performance optimization, provide the essential foundation that powers the entire platform.",
-      //Led the development team, implemented key features, and coordinated with construction professionals for testing.",
-      skills: "MongoDB, Express, Node.js, Javascript, ",
-      link: "https://fusionxpress.netlify.app/",
-      image: project2,
-      nameOfInstitution: "Camm Fusion",
-      startDate: "October 2024",
-      endDate: "October 2024",
-    },
-    {
-      projectName: "SexWise",
-      description:
-      "SexWise is an interactive online platform designed to provide accurate, inclusive, and judgment-free information on sex-related issues. It aims is to address gaps in sex education by covering a wide range of topics: physical health, emotional well-being, relationships, safe sex practices, consent, and mental health!",
-      contribution:
-      "Developed the backend infrastructure, managed users dashboard, articles, message and database.",
-      skills:"Node.js, MongoDB, Express, JavaScript, Stripe API",
-      link:"http://sexwise.netlify.app",
-      image: project4,
-      nameOfInstitution: "SexWise",
-      startDate: "October 2024",
-      endDate: "November 2024",
-    },
-    {
-      projectName: "Real-Estate",
-      description:
-        "Created an online platform for events management, enabling users to experience culture like never before Created out of the drive and passion for African Entertainment.",
-      contribution:
-        "Developed the backend infrastructure, managed the database, and implemented video streaming capabilities.",
-      skills: "Node.js, MongoDB, Express",
-      link: "https://akuaasantewaa.github.io/real-estate/",
-     image: project8,
-      nameOfInstitution: "Tukio Events",
-      startDate: "September 2024",
-      endDate: "October 2024",
-    },
-    {
-      projectName: "Web3 Marketing Strategy Report for Cryptio",
-      description:
-        "A blockchain-based financial reporting platform. This report outlined key strategies for increasing brand awareness, driving user adoption, and fostering community engagement within the Web3 ecosystem!",
-      contribution:
-        "Research and market Analysis, Growth and community Encgagement Strategies, User Acquisition and Retention, Content and Social Media Marketing, Performance Tracking and Analytics.",
-      skills: "SEO optimization for crypto-related content, Tokenomics and incentive-driven user acquisition strategies, Influencer and partnership marketing in the Web3 space, Content marketing (blogs, whitepapers, and educational resources).", 
-      link: "https://docs.google.com/document/d/17il_igFm8DJXu6Ssgvr66NlVDunzx40JN0JeJ_yj50g/edit?tab=t.0",
-      image: project6,
-      nameOfInstitution: "Helicode",
-      startDate: "January 2025",
-      endDate: "March 2025",
+        "Designed, developed, and deployed the complete Fitta.com web platform from scratch, delivering a responsive, user-friendly, and visually appealing experience. Managed the entire project lifecycle, including planning, UI/UX design, frontend and backend development, database integration, and live deployment. Implemented responsive layouts, optimized performance, and ensured cross-browser compatibility. Leveraged modern web technologies such as HTML5, CSS3, JavaScript, React, Node.js, Express, and database systems (MySQL/PostgreSQL/NoSQL). Utilized Git and GitHub for version control and applied best practices in SEO, accessibility, and site optimization.",
+      skills:
+        "HTML5, CSS3, JavaScript, React,SASS/Bootstrap, Node.js, MongoDB, Express, JavaScript, Stripe API,  Git, GitHub, UI/UX, Web Deployment, SEO Optimization, Responsive Design.",
+      link: "https://fitta.vercel.app/",
+      image: project8,
+      nameOfInstitution: "ABSA",
+      startDate: "May 2025",
+      endDate: "July 2025",
     },
     {
       projectName: "Maxgyet Oil ",
@@ -257,15 +249,86 @@ export const future = {
       startDate: "February 2025",
       endDate: "March 2025",
     },
+    {
+      projectName: "SexWise",
+      description:
+        "SexWise is an interactive online platform designed to provide accurate, inclusive, and judgment-free information on sex-related issues. It aims is to address gaps in sex education by covering a wide range of topics: physical health, emotional well-being, relationships, safe sex practices, consent, and mental health!",
+      contribution:
+        "Developed the backend infrastructure, managed users dashboard, articles, message and database.",
+      skills: "Node.js, MongoDB, Express, JavaScript, Stripe API",
+      link: "http://sexwise.netlify.app",
+      image: project4,
+      nameOfInstitution: "SexWise",
+      startDate: "October 2024",
+      endDate: "November 2024",
+    },
+    {
+      projectName: "Camm-Library",
+      description:
+      "A library management app designed to streamline the organization and tracking of books. As the backend developer, I built and managed the server-side logic, database integration, and API functionalities to ensure smooth operations, including user authentication, book lending, and inventory management",
+      contribution:
+      "Designed the NLP model, integrated it with a backend API, and deployed the solution on a cloud platform.",
+      skills: "Express, Node.js, JavaScript, ",
+      link: "https://cammfusion.netlify.app/",
+      image: project1,
+      nameOfInstitution: "Camm Fusion",
+      startDate: "October 2024",
+      endDate: "October 2024",
+    },
+    // {
+    //   projectName: "Shopify",
+    //   description:
+    //     "An online shopping platform offering to deliver a professional, user-friendly shopping experience. A dedicated gallery space on a Shopify store that highlights real customers using products such as jackets, boots, and shirts.!",
+    //   contribution:
+    //     "Contributed to the design and customization of key sections of a Shopify-based e-commerce platform, ensuring brand consistency and user engagement. Developed and optimized the About, Gallery, Contact, and Testimonial pages to enhance the customer experience and improve site navigation. Applied responsive design principles to ensure seamless performance across devices, and implemented structured layouts that aligned with the client’s branding.",
+    //   skills:
+    //     "Shopify, Liquid, HTML5, CSS3, JavaScript, Responsive Design, UI/UX Design, Web Optimization, Image Handling, Page Layout Customization, Branding Implementation.",
+    //   link: "https://cockie-outfitters.myshopify.com/",
+    //   image: project6,
+    //   nameOfInstitution: "Shopify",
+    //   startDate: "January 2025",
+    //   endDate: "March 2025",
+    // },
+    {
+      projectName: "FusionXpress-api",
+      description:
+        "This app simplifies the advertisement process by offering an intuitive platform for managing and optimizing ad campaigns.",
+      contribution:
+        "As a backend developer will ensure the smooth operation, security, and scalability of the advertisement web app. By focusing on APIs, database management, authentication, analytics, and performance optimization, provide the essential foundation that powers the entire platform.",
+      //Led the development team, implemented key features, and coordinated with construction professionals for testing.",
+      skills: "MongoDB, Express, Node.js, Javascript, ",
+      link: "https://fusionxpress.netlify.app/",
+      image: project2,
+      nameOfInstitution: "Camm Fusion",
+      startDate: "October 2024",
+      endDate: "October 2024",
+    },
+    
+    {
+      projectName: "Real-Estate",
+      description:
+        "Created an online platform for events management, enabling users to experience culture like never before Created out of the drive and passion for African Entertainment.",
+      contribution:
+        "Developed the backend infrastructure, managed the database, and implemented video streaming capabilities.",
+      skills: "Node.js, MongoDB, Express",
+      link: "https://akuaasantewaa.github.io/real-estate/",
+      image: project3,
+      nameOfInstitution: "Tukio Events",
+      startDate: "September 2024",
+      endDate: "October 2024",
+    },
+    
   ],
 
   volunteering: [
     {
       organisation: "GREEN GHANA PROJECT",
       icon: FaHandsHelping,
-      color:'green',
-      description: "The project aims to create greater economic and employment opportunities for youth, women and returning migrants by promoting and suppoerting sustainable, green businesses in the Ashanti and Western Regions of Ghana.",
-      skills: "Decision making, teamwork, communication, risk management, commercial, creativity and problem solving.",
+      color: "green",
+      description:
+        "The project aims to create greater economic and employment opportunities for youth, women and returning migrants by promoting and suppoerting sustainable, green businesses in the Ashanti and Western Regions of Ghana.",
+      skills:
+        "Decision making, teamwork, communication, risk management, commercial, creativity and problem solving.",
       startDate: "2024-06",
       endDate: "2024-08",
       role: "Crop Modeler",
@@ -278,10 +341,12 @@ export const future = {
     },
     {
       organisation: "RED CROSS GHANA",
-      icon:FaCross,
-      color:"red",
-      description: "Is a volunteer-based hummanitarian organization which helps those facing disaster, conflict, health and valnerable in communites",
-      skills: "Compassion, teamwork, empathy, communication, risk management, leadership.",
+      icon: FaCross,
+      color: "red",
+      description:
+        "Is a volunteer-based hummanitarian organization which helps those facing disaster, conflict, health and valnerable in communites",
+      skills:
+        "Compassion, teamwork, empathy, communication, risk management, leadership.",
       startDate: "2018-09",
       endDate: "2021-08",
       role: "Field Personnel",
@@ -296,12 +361,15 @@ export const future = {
       organisation: "NGO ",
       icon: IoAccessibility,
       color: "blue",
-      description: "A non-profit orgnization that independently focused on addressing social, environmental, or humanitarian issues with the aim to create positive change through programs funded by donations and grants, often relying on volunteers.",
-      skills: "Empathy, teamwork, communication, time management,  and problem solving.",
+      description:
+        "A non-profit orgnization that independently focused on addressing social, environmental, or humanitarian issues with the aim to create positive change through programs funded by donations and grants, often relying on volunteers.",
+      skills:
+        "Empathy, teamwork, communication, time management,  and problem solving.",
       startDate: "2014-09",
       endDate: "2016-08",
       role: "Field Personnel",
-      responsibility: "Activities in areas involving health or health emergencies, education, infrastructure, advocacy of minority rights, supports of the poor and the reduction of crime",
+      responsibility:
+        "Activities in areas involving health or health emergencies, education, infrastructure, advocacy of minority rights, supports of the poor and the reduction of crime",
       location: "Ho",
       projectName: "NGO",
       createdAt: "2024-07-28T23:13:59.963Z",
@@ -311,12 +379,47 @@ export const future = {
   ],
   experience: [
     {
-      companyName: "Biometric Verification Officer,The Electoral Commission of Ghana",
-      role: "Biometric Verification Officer",
-      skills: "Technical expertise, communication abilities, security awareness",
+      companyName:
+        "The Cobalt Partners",
+      role: "Software Engineer",
+      skills:
+        "Full-stack web development, Shopify, WordPress, Elementor, UI/UX design, responsive design, API development, database management, and e-commerce solutions.",
+      responsibility:
+        "Develop and maintain web applications, manage databases, build APIs, optimize performance, ensure responsive design, debug issues, and deploy solutions.",
+      // Ideated detailed and meaningful statistical analyses by using data on precipitation, humidity, wind and sunshine parameters to derive evapotranspiration and solar radiation dataset.",
+      location: "Remote",
+      startDate: "2019-12-07",
+      endDate: "2019-12-08",
+      createdAt: "2024-07-23T15:04:33.561Z",
+      updatedAt: "2024-07-23T15:04:33.561Z",
+      id: "669fc681885925ada2d4d18f",
+    }, 
+    
+    {
+      companyName:
+        "The Helicode",
+      role: "Web3 Marketer",
+      skills:
+        " Storytelling, Technical expertise, communication abilities, security awareness",
+      responsibility:
+        "Develop and execute marketing strategies for Web3 projects, grow community engagement, manage social media and content creation, drive token awareness and adoption, coordinate campaigns, and analyze performance metrics.",
+      // Ideated detailed and meaningful statistical analyses by using data on precipitation, humidity, wind and sunshine parameters to derive evapotranspiration and solar radiation dataset.",
+      location: "Remote",
+      startDate: "2024-03-01",
+      endDate: "2024-05-31",
+      createdAt: "2024-07-23T15:04:33.561Z",
+      updatedAt: "2024-07-23T15:04:33.561Z",
+      id: "669fc681885925ada2d4d18f",
+    },
+    {
+      companyName:
+        "The Electoral Commission of Ghana",
+      role: "Biometric Officer",
+      skills:
+        "Technical expertise, communication abilities, security awareness",
       responsibility:
         "responsible for capturing, verifying, and managing biometric data, ensuring system functionality, preventing fraud, providing user support, and maintaining compliance with privacy and security regulations",
-        // Ideated detailed and meaningful statistical analyses by using data on precipitation, humidity, wind and sunshine parameters to derive evapotranspiration and solar radiation dataset.",
+      // Ideated detailed and meaningful statistical analyses by using data on precipitation, humidity, wind and sunshine parameters to derive evapotranspiration and solar radiation dataset.",
       location: "Accra, Ghana",
       startDate: "2019-12-07",
       endDate: "2019-12-08",
@@ -324,10 +427,25 @@ export const future = {
       updatedAt: "2024-07-23T15:04:33.561Z",
       id: "669fc681885925ada2d4d18f",
     },
+    // {
+    //   companyName: "Population and Housing Census",
+    //   role: "Enumerator",
+    //   skills:
+    //     "Adaptability, Numeracy Skills, Communication Skills, Tech Literacy",
+    //   responsibility:
+    //     "Used advanced computer systems and software tools for collecting, recording, and validating data through surveys or interviews, following project guidelines, ensuring data confidentiality, addressing respondent concerns, solving field challenges, reporting progress, and meeting deadlines, often requiring travel.",
+    //   location: "Accra, Ghana",
+    //   startDate: "2024-07-27",
+    //   endDate: "2024-07-21",
+    //   createdAt: "2024-07-23T15:04:06.471Z",
+    //   updatedAt: "2024-07-23T15:04:06.471Z",
+    //   id: "669fc666885925ada2d4d18a",
+    // },
     {
       companyName: "Population and Housing Census",
       role: "Enumerator",
-      skills: "Adaptability, Numeracy Skills, Communication Skills, Tech Literacy",
+      skills:
+        "Adaptability, Numeracy Skills, Communication Skills, Tech Literacy",
       responsibility:
         "Used advanced computer systems and software tools for collecting, recording, and validating data through surveys or interviews, following project guidelines, ensuring data confidentiality, addressing respondent concerns, solving field challenges, reporting progress, and meeting deadlines, often requiring travel.",
       location: "Accra, Ghana",

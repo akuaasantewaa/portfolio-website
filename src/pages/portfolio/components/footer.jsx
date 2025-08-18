@@ -50,7 +50,7 @@ const Footer = () => {
       <div className="container mx-auto mt-12 text-center">
         <hr className="border-gray-700" />
         <small className="text-gray-500 mt-4 block">
-          © 2024. Made by {userDetails.firstname} {userDetails.lastname}
+          © 2025. Made by {userDetails.firstname} {userDetails.lastname}
         </small>
       </div>
     </footer>
